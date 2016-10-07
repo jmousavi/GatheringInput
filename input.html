@@ -8,7 +8,9 @@
 			var fullName;
 			var firstName;
 			var lastName;
-			fullName = document.getElementById("first").value;
+			firstName = document.getElementById("first").value;
+			lastName = document.getElementById("last").value;
+			fullName = firstName + " " + lastName;
 			document.getElementById("message").innerHTML= fullName;
 		}
 		</script>
